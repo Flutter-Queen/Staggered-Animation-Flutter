@@ -38,7 +38,7 @@ class _OrderEntryState extends State<OrderEntry>
     _controller.dispose();
     super.dispose();
   }
-
+///********FOLDING CARD ANIMATION************///
   void _toggleAnimation() {
     if (_controller.status == AnimationStatus.completed) {
       _controller.reverse();
@@ -47,6 +47,7 @@ class _OrderEntryState extends State<OrderEntry>
     }
   }
 
+  ///******** SENDER SECTION************///
   Widget _senderSection() {
     return OrderEntrySectionRow(
       height: 85,
@@ -98,7 +99,7 @@ class _OrderEntryState extends State<OrderEntry>
       ],
     );
   }
-
+ ///******** ADDRESS SECTION************///
   Widget _addressSection() {
     return OrderEntrySectionRow(
       height: 80,
@@ -135,7 +136,7 @@ class _OrderEntryState extends State<OrderEntry>
       ],
     );
   }
-
+ ///******** DELIVERY SECTION************///
   Widget _deliverySection() {
     return const OrderEntrySectionRow(
       height: 80,
@@ -180,7 +181,7 @@ class _OrderEntryState extends State<OrderEntry>
       ],
     );
   }
-
+ ///******** FOOTER SECTION************///
   Widget _messageSection() {
     return Container(
         height: 75,
