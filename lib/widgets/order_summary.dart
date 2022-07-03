@@ -24,6 +24,7 @@ class OrderEntrySummary extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
+                 ///**********TEAL CARD WITH PRICE & DAY-TIME */
             Expanded(
               flex: 1,
               child: Container(
@@ -57,6 +58,7 @@ class OrderEntrySummary extends StatelessWidget {
                 ),
               ),
             ),
+                   ///************WHITE CARD WITH ADDRESS, SHIPPING & WEIGHT */
             Expanded(
               flex: 2,
               child: Column(
