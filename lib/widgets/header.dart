@@ -18,6 +18,7 @@ class OrderEntryHeader extends StatelessWidget {
       height: 180,
       child: Stack(
         children: [
+          ///********PRODUCT IMAGE************///
           Container(
             height: height,
             decoration: const BoxDecoration(
@@ -30,6 +31,7 @@ class OrderEntryHeader extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
+              ///********MENU ICON, PRODUCT ID, PRICE************///
               ListItemDetailsHeaderBar(
                 order: order,
               ),
